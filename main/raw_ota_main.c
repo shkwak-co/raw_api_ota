@@ -30,7 +30,7 @@ extern const unsigned char monitor_html_gz_start[] asm ("_binary_hello_world_inv
 extern const unsigned char monitor_html_gz_end[] asm ("_binary_hello_world_inv_bin_end");
 #endif
 
-
+// Running_task, Running_task2는 multitasking environment를 구현하기 위함.
 void
 Running_task (void *arg)
 {
